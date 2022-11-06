@@ -10,15 +10,6 @@
 #include <vector>
 #include "user.hpp"
 
-class JsonList{
-    public:
-        JsonList();
-        ~JsonList();
-        std::string name;
-        std::string value;
-        JsonList *next;
-};
-
 class server{
 
     public:
